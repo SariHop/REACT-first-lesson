@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './components/Header';
-import Paragraph from './components/Paragraph';
-import Link from './components/Link';
-import Footer from './components/Footer';
-import Input from './components/Input';
+import Header from './components/5_components/Header';
+import Paragraph from './components/5_components/Paragraph';
+import Link from './components/5_components/Link';
+import Footer from './components/5_components/Footer';
+import Input from './components/5_components/Input';
 
 function App() {
 
@@ -14,7 +14,11 @@ function App() {
 
   return (
     <div className="App">
-     
+      <Header fun={fun}></Header>
+      <Paragraph></Paragraph>
+      <Link></Link>
+      <Input></Input>
+      <Footer></Footer>
     </div>
   );
 }
