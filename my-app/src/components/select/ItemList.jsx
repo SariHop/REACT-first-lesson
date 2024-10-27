@@ -7,7 +7,7 @@ const ItemList = () => {
     const item_arr = ['Banna', 'apple', 'grapes', 'cherry', 'watermelon']
 
     return <div>
-        <h2>Select an Item</h2>
+        <h4>Select an Item</h4>
         <ul>
             {
                 item_arr.map((item, i) => {

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-const Header = ({fun}) => {
-    return <header>header {fun()}</header>;
+const Header = ({name}) => {
+    
+    useEffect(()=>{}, [name])
+    
+    return <header> {name}</header>;
 };
 
 export default Header;
